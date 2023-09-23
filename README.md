@@ -71,5 +71,6 @@ Manual de Usuario - TechsBlox-español
 3. Closing the Program
 
 To close the application, click the "Close Program" button located on the main interface
+![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/97a62d76-8232-426e-a33e-333a46091631)
 
 
