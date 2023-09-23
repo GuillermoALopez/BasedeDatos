@@ -21,15 +21,16 @@ Manual de Usuario - TechsBlox-español
    
 2.1 Ingreso de Datos
 
-    Ingresa el código del producto en el campo "Código".
-    
-    Escribe el nombre del producto en el campo "Nombre".
-    
-    Introduce la cantidad de unidades en el campo "Unidades".
-    
-    Especifica el precio unitario en el campo "Precio Unitario".
-    
-    Selecciona la fecha de ingreso utilizando el calendario.
+ Ingresa el código del producto en el campo "Código".
+ 
+Escribe el nombre del producto en el campo "Nombre".
+
+Introduce la cantidad de unidades en el campo "Unidades".
+
+Especifica el precio unitario en el campo "Precio Unitario".
+
+Selecciona la fecha de ingreso utilizando el calendari
+
 
     ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/a5f12c5c-bf27-4204-a347-d4901dd69151)
 
