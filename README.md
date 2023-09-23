@@ -7,7 +7,7 @@ Manual de Usuario - TechsBlox-español
     Se abrirá una pantalla de inicio de sesión.       
     Ingresa tu nombre de usuario y contraseña.
     Haz clic en el botón "Ingresar".
- ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/06f96c8a-6efc-4530-98b5-9f3e2b8dffa9)
+                                                                             ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/06f96c8a-6efc-4530-98b5-9f3e2b8dffa9)
 
 
 
