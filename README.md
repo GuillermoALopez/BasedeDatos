@@ -148,3 +148,49 @@ To close the application, click the "Close Program" button located on the main i
 
 
 
+
+
+Manual Técnico: Sistema de Gestión de Productos
+Introducción
+
+El sistema de gestión de productos es una aplicación de escritorio diseñada para administrar información sobre productos, incluyendo su código, nombre, precio unitario, cantidad de unidades y fecha de ingreso. Este manual técnico proporciona una descripción detallada del código fuente proporcionado.
+Estructura del Código
+
+El código fuente está escrito en Java y utiliza el entorno de desarrollo NetBeans. El proyecto está organizado en un paquete llamado basededatos, que contiene una serie de clases y recursos necesarios para el funcionamiento del sistema.
+Clases Principales
+Clase bdnegocio
+
+Esta clase es la interfaz principal de la aplicación y contiene los elementos gráficos (ventanas, botones, campos de texto, etc.) y la lógica para interactuar con la base de datos.
+Atributos
+
+ con1: Objeto de la clase Conexion utilizado para establecer la conexión con la base de datos.
+    conet: Objeto de tipo Connection que representa la conexión a la base de datos.
+    modelo: Objeto de tipo DefaultTableModel utilizado para manejar los datos de la tabla.
+    st: Objeto de tipo Statement para ejecutar consultas SQL.
+    rs: Objeto de tipo ResultSet que almacena el resultado de las consultas SQL.
+    idc: Variable entera utilizada para almacenar el ID del producto.
+
+Métodos Principales
+
+public bdnegocio(): Constructor de la clase. Se encarga de inicializar los componentes de la interfaz gráfica y establecer la conexión con la base de datos.
+
+   private void initComponents(): Método generado automáticamente por el entorno de desarrollo que inicializa y configura todos los componentes visuales.
+
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón "Agregar". Se encarga de agregar un nuevo producto a la base de datos.
+
+private void jButton3ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón "Eliminar". Elimina un producto de la base de datos.
+
+private void jButton2ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón "Modificar". Permite modificar los datos de un producto existente.
+
+private void jButton4ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón "Salir". Cierra la aplicación.
+
+ private void jButton5ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón "Generar Reporte". Genera y muestra un informe con los productos.
+
+private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón de búsqueda. Realiza una búsqueda de productos por código o nombre.
+
+private void jButton6ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón "Consultar". Consulta y actualiza la tabla de productos.
+
+void consultar(): Método que consulta la base de datos y actualiza la tabla de productos.
+
+
+
