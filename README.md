@@ -4,8 +4,11 @@ Manual de Usuario - TechsBlox-español
 1. Inicio de Sesión
 
     Ejecuta el programa desde NetBeans.
-    Se abrirá una pantalla de inicio de sesión.       
+   
+    Se abrirá una pantalla de inicio de sesión.
+         
     Ingresa tu nombre de usuario y contraseña.
+   
     Haz clic en el botón "Ingresar".   \n
 
 
