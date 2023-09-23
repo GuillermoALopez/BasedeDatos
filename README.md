@@ -4,11 +4,16 @@ Manual de Usuario - TechsBlox-español
 1. Inicio de Sesión
 
     Ejecuta el programa desde NetBeans.
-    Se abrirá una pantalla de inicio de sesión.
+    Se abrirá una pantalla de inicio de sesión.       
     Ingresa tu nombre de usuario y contraseña.
     Haz clic en el botón "Ingresar".
+ ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/06f96c8a-6efc-4530-98b5-9f3e2b8dffa9)
 
-2. Interfaz Principal - TechsBlox
+
+
+   
+
+3. Interfaz Principal - TechsBlox
 2.1 Ingreso de Datos
 
     Ingresa el código del producto en el campo "Código".
@@ -71,6 +76,6 @@ Manual de Usuario - TechsBlox-español
 3. Closing the Program
 
 To close the application, click the "Close Program" button located on the main interface
-![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/97a62d76-8232-426e-a33e-333a46091631)
+
 
 
