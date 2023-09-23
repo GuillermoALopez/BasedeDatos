@@ -147,6 +147,89 @@ To close the application, click the "Close Program" button located on the main i
 ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/fa2a64f9-769a-4dab-9a4b-bff9b095b07d)
 
 
+Manual Técnico: Conexión a la Base de Datos
+Introducción
+
+El objetivo de este manual es proporcionar una descripción detallada de la clase Conexion que se encarga de establecer la conexión con la base de datos en el sistema de gestión de productos.
+Estructura del Código
+
+La clase Conexion está contenida en el paquete basededatos y se encarga de gestionar la conexión con la base de datos MySQL.
+Clase Conexion
+Descripción
+
+Esta clase se encarga de establecer la conexión con la base de datos y proporciona un método para obtener la instancia de la conexión.
+Atributos
+
+ con: Objeto de tipo Connection que representa la conexión a la base de datos.
+
+Métodos
+
+ public Conexion(): Constructor de la clase. Se encarga de cargar el controlador de MySQL y establecer la conexión con la base de datos utilizando la URL de conexión, nombre de usuario y contraseña.
+
+public Connection getConnection(): Método que devuelve la instancia de la conexión a la base de datos. Permite a otras clases obtener acceso a la conexión.
+
+Connection getConexion(): Este método no está implementado y lanza una excepción de tipo UnsupportedOperationException si se invoca. Puede ser un remanente de código no utilizado.
+
+Configuración de la Conexión
+
+La conexión se establece utilizando la siguiente información:
+
+ Controlador JDBC: com.mysql.jdbc.Driver
+    URL de Conexión: jdbc:mysql://localhost:3306/bdnegocio
+    Usuario: root
+    Contraseña: (En este caso, está en blanco, pero en una configuración real debería tener una contraseña segura).
+
+Gestión de Errores
+
+En caso de que ocurra un error al establecer la conexión, se captura una excepción y se imprime un mensaje de error en la consola.
+Consideraciones
+
+Asegúrese de tener el controlador MySQL JDBC en el classpath del proyecto.
+
+Asegúrese de que el servidor MySQL esté en ejecución y escuchando en el puerto 3306.
+
+Cambie el nombre de usuario y la contraseña según sea necesario para su configuración de MySQL.
+
+
+
+
+Manual Técnico: Sistema de Inicio de Sesión
+Introducción
+
+El sistema de inicio de sesión proporciona a los usuarios una interfaz para ingresar a la aplicación. Este manual detalla la implementación del código Java que maneja la autenticación de usuarios.
+Estructura del Código
+
+La clase Usuario es una ventana de interfaz gráfica de usuario (GUI) que proporciona campos para ingresar el nombre de usuario y la contraseña. Luego, verifica las credenciales ingresadas y permite el acceso si son correctas.
+Clase Usuario
+Descripción
+
+Esta clase representa la ventana de inicio de sesión de la aplicación. Permite a los usuarios ingresar sus credenciales para acceder a la funcionalidad principal.
+Componentes de la Interfaz
+
+jLabel2: Etiqueta de texto que indica "Bienvenido Usuario".
+    jLabel3: Etiqueta de texto que indica "Usuario".
+    jLabel4: Etiqueta de texto que indica "Contraseña".
+    txtusuario: Campo de texto para ingresar el nombre de usuario.
+    password: Campo de contraseña para ingresar la contraseña.
+    jButton1: Botón "Ingresar" que inicia el proceso de autenticación.
+
+Métodos
+
+private void jButton1MouseClicked(java.awt.event.MouseEvent evt): Método invocado cuando se hace clic en el botón "Ingresar". Verifica las credenciales ingresadas y, si son correctas, abre la ventana principal de la aplicación bdnegocio. Si no, muestra un mensaje de error.
+
+public static void main(String args[]): El método principal que inicia la aplicación. Crea una instancia de la clase Usuario y la hace visible.
+
+Configuración de Credenciales
+
+Las credenciales de usuario (nombre de usuario y contraseña) están codificadas directamente en el método jButton1MouseClicked. En un entorno real, se deben verificar las credenciales contra una base de datos o un sistema de autenticación externo.
+Consideraciones
+
+Seguridad de las Credenciales: En una aplicación real, no es seguro codificar las credenciales en el código fuente. Se deben almacenar de forma segura y utilizar métodos de autenticación robustos.
+
+Manejo de Errores: En una implementación real, se debe manejar de manera adecuada el flujo de errores, incluidos los casos de credenciales incorrectas y posibles errores de conexión.
+
+Pruebas: Se recomienda realizar pruebas exhaustivas del sistema de inicio de sesión para garantizar su funcionalidad y seguridad.
+
 
 
 
@@ -191,6 +274,14 @@ private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt): Mét
 private void jButton6ActionPerformed(java.awt.event.ActionEvent evt): Método que se ejecuta cuando se presiona el botón "Consultar". Consulta y actualiza la tabla de productos.
 
 void consultar(): Método que consulta la base de datos y actualiza la tabla de productos.
+
+
+
+
+
+
+![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/a4e53256-00cf-4c80-8e4a-83c96e0d21a3)
+
 
 
 
