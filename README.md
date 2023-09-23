@@ -38,13 +38,37 @@ Selecciona la fecha de ingreso utilizando el calendari
 
 2.2 Botones de Acción
 
-    Agregar: Guarda los datos ingresados en la base de datos.
-    Borrar: Permite eliminar un producto seleccionado de la base de datos.
-    Modificar: Permite realizar cambios en la información de un producto existente.
-    Generar Reporte PDF: Abre un informe en formato PDF con los datos ingresados.
-    Buscar: Permite buscar productos por código o nombre.
-    Reiniciar: Limpia todos los campos.
-    Cerrar Programa: Cierra la aplicación.
+ Agregar: Guarda los datos ingresados en la base de datos.
+ 
+ ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/ca4bc6e3-fdb3-45f5-87b4-15c4674a77ee)
+
+
+ Borrar: Permite eliminar un producto seleccionado de la base de datos.
+
+ ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/015baee5-416a-4be4-b239-3ee5063acc6c)
+
+ 
+Modificar: Permite realizar cambios en la información de un producto existente.
+
+![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/9b529f75-680f-44df-a3a2-4a9799160094)
+
+
+Generar Reporte PDF: Abre un informe en formato PDF con los datos ingresados.
+
+![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/61708837-e688-4d7b-a126-6b7e42f18ff8)
+
+
+Buscar: Permite buscar productos por código o nombre.
+
+Reiniciar: Limpia todos los campos.
+
+![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/737ad9a6-9853-4443-8604-dbd4a1b9b235)
+
+
+Cerrar Programa: Cierra la aplicación.
+
+![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/fa2a64f9-769a-4dab-9a4b-bff9b095b07d)
+
 
 2.3 Base de Datos de Productos
 
