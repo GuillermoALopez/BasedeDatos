@@ -32,7 +32,8 @@ Especifica el precio unitario en el campo "Precio Unitario".
 Selecciona la fecha de ingreso utilizando el calendari
 
 
-    ![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/a5f12c5c-bf27-4204-a347-d4901dd69151)
+![imagen](https://github.com/GuillermoALopez/BasedeDatos/assets/145726629/2c53a6ea-ba6a-4c6b-b5bc-ae0f1929bbce)
+
 
 
 2.2 Botones de Acción
